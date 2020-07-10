@@ -28,7 +28,84 @@ body {
     font-weight: 700;
 }
 
+@media (max-width: 460px) {
+    #title {
+        font-size: 2em;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+}
+
 #main {
     background-color: #eee;
     padding: 0 15px 30px 15px;
+}
+
+#img-fig {
+    max-width: 100%;
+    background-color: #fff;
+}
+
+#img-fig figcaption {
+    padding: 10px 20px 15px 20px;
+}
+
+@media (max-width: 460px) {
+    #img-fig figcaption {
+        padding: 10px 10px 15px 10px;
+        font-size: 1em;
+    }
+}
+
+#img-fig img {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+#timeline {
+    text-align: left;
+    max-width: 545px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#headline {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px 0 50px 0;
+    text-align: center;
+}
+
+ul li {
+    margin: 16px 0;
+    list-style: disc;
+    line-height: 1.4;
+}
+
+blockquote {
+    font-style: italic;
+    padding: 40px 0;
+}
+
+blockquote p {
+    margin-bottom: 20px;
+}
+
+footer {
+    font-size: 1.2em;
+    padding: 0 20px;
+}
+
+footer h3 {
+    font-weight: 700;
+}
+
+footer h3 a {
+    color: #477ca7;
+}
+
+footer h3 a:visited {
+    color: #74638f;
 }
